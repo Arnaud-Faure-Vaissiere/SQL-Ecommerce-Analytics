@@ -298,11 +298,10 @@ SQL-Ecommerce-Analytics/
     ├── 02_data_validation.sql
     ├── 03_basic_analysis.sql
     ├── 04_sales_analysis.sql
-    ├── 05_product_analysis.sql
-    ├── 06_customer_analysis.sql
-    ├── 07_country_analysis.sql
-    ├── 08_time_analysis.sql
-    └── 09_business_kpis.sql
+    ├── 05_customer_analysis.sql
+    ├── 06_country_analysis.sql
+    ├── 07_time_analysis.sql
+    └── 08_business_kpis.sql
 ```
 ## Next Step
 
