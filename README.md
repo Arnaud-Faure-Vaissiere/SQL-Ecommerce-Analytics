@@ -267,7 +267,7 @@ The analysis highlights several important business patterns:
  3) **Revenue and sales volume provide different perspectives on product performance.**
  4) **Some international markets have a much higher average revenue per customer,** despite having smaller customer bases.
  5) **Cancellation rates vary significantly between countries,** with some markets requiring further investigation.
-6) **Revenue increased substantially between the beginning and the end of the observed period,** although the dataset is too short to establish long-term trends or seasonality.
+ 6) **Revenue increased substantially between the beginning and the end of the observed period,** although the dataset is too short to establish long-term trends or seasonality.
 
 ## Analytical Limitations
 
