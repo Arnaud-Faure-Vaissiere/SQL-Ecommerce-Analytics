@@ -149,25 +149,41 @@ These indicators provide an overview of the company's sales activity during the 
 
 Revenue is relatively concentrated among the highest-value customers.
 
-* The **top 10% of identified customers generate approximately 61.45%** of identified-customer revenue.
-* The **top 20% cumulatively generate approximately 74.68%** of identified-customer revenue.
+* The **top 10% of identified customers generate approximately 61.45% of identified-customer revenue.**
+* The **top 20% cumulatively generate approximately 74.68% of identified-customer revenue.**
 
 This indicates that a relatively small proportion of customers represents a significant share of the company's revenue.
 
 Customer segmentation was also performed using revenue and purchase frequency, identifying four main groups:
 
-* Occasional customers
-* VIP customers
-* High-value occasional customers
-* High-frequency customers
+* **Occasional customers**
+* **VIP customers**
+* **High-value occasional customers**
+* **High-frequency customers**
 
 The segmentation can help identify different customer profiles and potential commercial strategies.
 
 ### Geographic performance
 
-The **United Kingdom is the dominant market**, representing approximately 85% of total revenue and around 90% of identified customers.
+The United Kingdom is the dominant market, representing approximately:
+
+* **85% of total revenue**
+* **90% of identified customers**
 
 Other European markets such as the Netherlands, Germany and France also contribute significantly to revenue.
+
+However, revenue and customer concentration tell different stories. The UK generates most of the company's revenue mainly because of the size of its customer base, while some international markets show a much higher average revenue per customer.
+
+### Average Revenue per Customer: UK vs International Markets
+
+The average revenue per identified customer is approximately:
+
+* **£1,858 in the United Kingdom**
+* **£3,800 in other countries**
+
+This suggests that the UK relies heavily on the size of its customer base, while some international markets generate substantially more revenue per identified customer.
+
+These figures should be interpreted with caution because some countries have a very small number of identified customers.
 
 ### Product performance
 
