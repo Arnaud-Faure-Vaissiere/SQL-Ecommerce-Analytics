@@ -141,16 +141,27 @@ The analysis highlights several important business insights.
 * Number of sales orders: approximately **20.7K**
 * Average order value: approximately **£513**
 * Identified buying customers: approximately **4.3K**
+* Total quantity sold: approximately **5.65M units**
+
+These indicators provide an overview of the company's sales activity during the observed period.
 
 ### Customer concentration
 
 Revenue is relatively concentrated among the highest-value customers.
 
-The top **10% of identified customers generate approximately 61% of identified-customer revenue**.
+* The **top 10% of identified customers generate approximately 61.45%** of identified-customer revenue.
+* The **top 20% cumulatively generate approximately 74.68%** of identified-customer revenue.
 
-The top **20% cumulatively generate approximately 75%**.
+This indicates that a relatively small proportion of customers represents a significant share of the company's revenue.
 
-This suggests that a relatively small group of customers represents a significant share of the business value.
+Customer segmentation was also performed using revenue and purchase frequency, identifying four main groups:
+
+* Occasional customers
+* VIP customers
+* High-value occasional customers
+* High-frequency customers
+
+The segmentation can help identify different customer profiles and potential commercial strategies.
 
 ### Geographic performance
 
