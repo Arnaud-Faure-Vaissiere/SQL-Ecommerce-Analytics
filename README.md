@@ -274,7 +274,7 @@ The analysis highlights several important business patterns:
 Several limitations should be considered when interpreting the results:
 
 * The dataset covers approximately one year, so it is not sufficient to establish long-term seasonality.
-* Some transactions do not have an identified `CustomerID`.
+* Some transactions do not have an `CustomerID`.
 * Cancellation rate is calculated using cancelled units relative to sold and cancelled units. It should therefore not be interpreted directly as a customer return rate.
 * Some countries have very few identified customers, so their average customer revenue can be strongly influenced by individual customers.
 * The analysis identifies correlations and patterns but does not establish causal relationships.
