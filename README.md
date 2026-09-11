@@ -210,11 +210,64 @@ It measures the weight of cancellations in terms of volume and should not be int
 
 Cancellation analysis was also performed by customer, product, country and month to identify areas requiring further investigation.
 
-### Time evolution
+### Countries with High Cancellation Rates
 
-Comparing the first three complete months of the dataset with the last three complete months shows an increase in revenue of approximately **82%**.
+Among countries with more than **100 units sold**, the highest cancellation rates include:
 
-The comparison excludes December 2011 from the final period because the dataset only contains part of that month.
+* **United States: approximately 36.68%**
+* **Bahrain: above 10%**
+* **Czech Republic: above 10%**
+* **United Kingdom: slightly above 5%**
+
+These results do not explain the causes of cancellations, but they identify markets where a deeper operational analysis could be useful.
+
+The small customer base in some countries also means that these rates should be interpreted with caution.
+
+### Country Segmentation
+
+Countries were segmented according to two dimensions:
+
+* Revenue generated
+* Number of identified customers
+
+This produced four strategic categories:
+
+* **Priority markets**
+* **Development potential**
+* **Potential for increasing average customer value**
+* **Secondary markets**
+
+This approach helps distinguish between countries with a large existing business base and countries where different growth opportunities may exist.
+
+### Time Evolution
+
+The dataset covers transactions from **December 2010 to December 2011**, although December 2011 only contains part of the month.
+
+The analysis therefore focuses on monthly trends rather than claiming long-term seasonality.
+
+The strongest complete month in terms of revenue is **November 2011**, with approximately **£1.50M** in sales.
+
+The weakest complete month is **February 2011**, with approximately **£523K**.
+
+Comparing the first three complete months of the dataset with the last three complete months shows an increase in revenue of approximately **82.49%**.
+
+The comparison uses:
+
+* **December 2010 → February 2011**
+* **September 2011 → November 2011**
+
+December 2011 is excluded from the final comparison because the month is incomplete.
+
+### Business Interpretation
+
+The analysis highlights several important business patterns:
+
+* 1) **Revenue is strongly concentrated geographically**, with the UK representing the majority of both customers and revenue.
+* 2) **Customer value is highly concentrated**, with the top 10% of identified customers generating more than 60% of identified-customer revenue.
+* 3) **Revenue and sales volume provide different perspectives on product performance.**
+* 4) **Some international markets have a much higher average revenue per customer,** despite having smaller customer bases.
+* 5) **Cancellation rates vary significantly between countries,** with some markets requiring further investigation.
+* 6) **Revenue increased substantially between the beginning and the end of the observed period,** although the dataset is too short to establish long-term trends or seasonality.
 
 ## Analytical Limitations
 
