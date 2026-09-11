@@ -204,7 +204,7 @@ Cancellations represent approximately **4.65% of total transaction volume accord
 
 This indicator is calculated as:
 
-Cancelled quantity / (Cancelled quantity + Sold quantity)
+`Cancelled quantity / (Cancelled quantity + Sold quantity)`
 
 It measures the weight of cancellations in terms of volume and should not be interpreted directly as an order return rate.
 
