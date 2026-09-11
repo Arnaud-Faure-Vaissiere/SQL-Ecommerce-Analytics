@@ -176,7 +176,7 @@ However, revenue and customer concentration tell different stories. The UK gener
 
 ### Average Revenue per Customer: UK vs International Markets
 
-The average revenue per identified customer is approximately:
+The average revenue per identified customer is:
 
 * **£1,858 in the United Kingdom**
 * **£3,800 in other countries**
@@ -187,14 +187,28 @@ These figures should be interpreted with caution because some countries have a v
 
 ### Product performance
 
-The products generating the highest revenue are not necessarily the products sold in the highest quantities.
+The products generating the highest revenue are not necessarily those sold in the highest quantities.
 
-This demonstrates the importance of analyzing both:
+This highlights the importance of analysing both:
 
-* Revenue
-* Sales volume
+* **Revenue**
+* **Sales volume**
 
 rather than relying on a single performance indicator.
+
+The analysis also identifies products with significant cancellation volumes, providing potential areas for further investigation.
+
+### Cancellation Analysis
+
+Cancellations represent approximately **4.65% of total transaction volume according to the project's cancellation-volume indicator.**
+
+This indicator is calculated as:
+
+Cancelled quantity / (Cancelled quantity + Sold quantity)
+
+It measures the weight of cancellations in terms of volume and should not be interpreted directly as an order return rate.
+
+Cancellation analysis was also performed by customer, product, country and month to identify areas requiring further investigation.
 
 ### Time evolution
 
