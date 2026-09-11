@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This project analyzes transactional data from an online retail company using **Python and PostgreSQL**.
-
+This project analyzes transactional data from an online retail company using **PostgreSQL** for data analysis and **Python** for exploratory analysis and visualization.
 The objective is to transform raw transactional data into **business insights** about sales performance, customers, products, countries and time trends.
 
 The project follows an end-to-end analytical workflow:
