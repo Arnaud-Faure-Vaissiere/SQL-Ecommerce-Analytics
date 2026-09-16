@@ -279,6 +279,91 @@ Several limitations should be considered when interpreting the results:
 * Some countries have very few identified customers, so their average customer revenue can be strongly influenced by individual customers.
 * The analysis identifies correlations and patterns but does not establish causal relationships.
 
+## Power BI Dashboard
+
+The cleaned dataset was then transformed into an interactive Power BI reporting solution.
+
+The Power BI workflow included:
+
+* Data transformation with Power Query
+* Data type validation and data preparation
+* Creation of a dedicated Date column
+* Data modeling with a Date dimension
+* Creation of DAX measures for business KPIs
+* Interactive filtering and cross-filtering
+* Business-oriented dashboard design and visualization
+
+The dashboard is organized into four pages:
+
+### 1. Executive Overview
+
+Provides a high-level overview of the company's performance.
+
+Key indicators include:
+
+* Total Revenue
+* Total Orders
+* Total Customers
+* Total Quantity
+* Average Order Value
+* Cancellation Rate
+
+The page also includes revenue evolution over time and quarterly revenue performance.
+
+### 2. Sales & Products
+
+Focuses on product-level performance and sales mix.
+
+The analysis includes:
+
+* Top 10 products by revenue
+* Top 10 products by quantity
+* Product performance by revenue, quantity and orders
+* Comparison between sales revenue and total revenue
+* Product-level cancellation analysis
+
+This page highlights that high sales volume does not necessarily correspond to the highest revenue performance.
+
+### 3. Customer Analysis
+
+Analyzes customer value and revenue concentration.
+
+The dashboard includes:
+
+* Top 10 customers by revenue
+* Customer revenue concentration
+* Customer-level revenue, orders and quantity
+* Average order value by customer
+
+The analysis highlights the strong concentration of revenue among the highest-value customers.
+
+### 4. Country Analysis
+
+Analyzes geographic sales performance.
+
+The dashboard includes:
+
+* Top 10 countries by revenue
+* Top 10 countries by orders
+* Revenue per identified customer
+* Country-level revenue, orders, customers and average order value
+
+This page helps compare market size, commercial activity and customer value across countries.
+
+### Interactivity
+
+The Power BI report is designed as an interactive analytical tool.
+
+Selecting a product, customer or country dynamically updates the relevant KPIs and visualizations, allowing users to explore the data from different business perspectives.
+
+The Power BI source file is available in:
+
+`powerbi/E_Commerce.pbix`
+
+Dashboard screenshots are available in:
+
+`powerbi/screenshots/`
+
 
 ## Project Structure
 
@@ -311,18 +396,3 @@ SQL-Ecommerce-Analytics/
         ├── 03_Customer_Analysis.png
         └── 04_Country_Analysis.png
 ```
-## Next Step
-
-The next stage of the project is to build an interactive **Power BI dashboard** based on the cleaned dataset and SQL analysis.
-
-The Power BI stage will focus on:
-
-* Data transformation with Power Query
-* Data modeling
-* DAX measures
-* KPI creation
-* Interactive dashboards
-* Business-oriented data visualization
-
-The objective is to transform the SQL analysis into an interactive reporting solution for decision-making.
-
