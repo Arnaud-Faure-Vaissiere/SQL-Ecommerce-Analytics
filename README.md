@@ -304,12 +304,12 @@ SQL-Ecommerce-Analytics/
 |   └── 08_business_kpis.sql
 |
 └── powerbi/
-    ├── Online_Retail_Analytics.pbix
+    ├── E_commerce.pbix
     └── screenshots/
         ├── 01_executive_overview.png
-        ├── 02_sales_products.png
-        ├── 03_customer_analysis.png
-        └── 04_country_analysis.png
+        ├── 02_Sales_Products.png
+        ├── 03_Customer_Analysis.png
+        └── 04_Country_Analysis.png
 ```
 ## Next Step
 
