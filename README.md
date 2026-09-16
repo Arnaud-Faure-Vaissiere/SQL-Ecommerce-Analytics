@@ -7,7 +7,7 @@ The objective is to transform raw transactional data into **business insights** 
 
 The project follows an end-to-end analytical workflow:
 
-**Data exploration → Data cleaning → PostgreSQL → SQL analysis → Business KPIs**
+**Data exploration → Data cleaning → PostgreSQL → SQL analysis → Business KPIs Power BI → Business insights**
 
 ## Business Questions
 
@@ -294,14 +294,22 @@ SQL-Ecommerce-Analytics/
 │   └── 01_exploration_nettoyage.ipynb
 │
 └── sql/
-    ├── 01_create_table.sql
-    ├── 02_data_validation.sql
-    ├── 03_basic_analysis.sql
-    ├── 04_sales_analysis.sql
-    ├── 05_customer_analysis.sql
-    ├── 06_country_analysis.sql
-    ├── 07_time_analysis.sql
-    └── 08_business_kpis.sql
+|   ├── 01_create_table.sql
+|   ├── 02_data_validation.sql
+|   ├── 03_basic_analysis.sql
+|   ├── 04_sales_analysis.sql
+|   ├── 05_customer_analysis.sql
+|   ├── 06_country_analysis.sql
+|   ├── 07_time_analysis.sql
+|   └── 08_business_kpis.sql
+|
+└── powerbi/
+    ├── Online_Retail_Analytics.pbix
+    └── screenshots/
+        ├── 01_executive_overview.png
+        ├── 02_sales_products.png
+        ├── 03_customer_analysis.png
+        └── 04_country_analysis.png
 ```
 ## Next Step
 
